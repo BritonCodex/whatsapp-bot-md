@@ -1,5 +1,5 @@
 {
-  "name": "levanter@5.2.3",
+  "name": "Briton.MB",
   "description": "",
   "keywords": ["noedjs"],
   "success_url": "/",
@@ -21,18 +21,18 @@
     },
     "PREFIX": {
       "description": "prefix, check for more",
-      "required": false,
-      "value": "."
+      "required": true,
+      "value": "-"
     },
     "SESSION_ID": {
       "description": "session id",
       "required": true,
-      "value": ""
+      "value": "2_4_3d7a_89e1_b049"
     },
     "STICKER_PACKNAME": {
       "description": "sticker pack info",
       "required": false,
-      "value": "❤️,LyFE"
+      "value": "❤️,Briton.MB"
     },
     "HEROKU_APP_NAME": {
       "description": "Heroku app name, same as above entered.",
@@ -49,7 +49,7 @@
     },
     "LANGUAG": {
       "description": "Default Language for tts or trt",
-      "required": false,
+      "required": true,
       "value": "en"
     },
     "WARN_LIMIT": {
@@ -74,18 +74,18 @@
     },
     "ANTISPAM_MSG": {
       "description": "Message send when antispam.",
-      "required": false,
+      "required": true,
       "value": "_Antispam Detected &mention kicked_"
     },
     "ANTIWORDS_MSG": {
       "description": "Message send when antiword.",
-      "required": false,
+      "required": true,
       "value": "_Antiword Detected &mention kicked_"
     },
     "ANTIWORDS": {
       "description": "words that not allowed in chats.",
       "required": false,
-      "value": "word1,word2,word3"
+      "value": "fuck,mbwa,Fuck,shit"
     },
     "SS_TOKEN": {
       "description": "token from https://app.screenshotapi.net/dashboard",
@@ -100,7 +100,7 @@
     "AUTO_STATUS_VIEW": {
       "description": "view others status",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "SEND_READ": {
       "description": "send blue tick",
